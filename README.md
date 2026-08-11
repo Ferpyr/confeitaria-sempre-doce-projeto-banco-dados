@@ -20,3 +20,5 @@ A **Confeitaria Sempre Doce** deseja expandir sua atuação criando um site para
 - E-mail
 - Endereço
 - Texto da imagem
+
+![alt text](image.png)
