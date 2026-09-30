@@ -1,0 +1,82 @@
+.img-cardapio {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.div-card {
+    display: flex;
+    gap: 10%;
+}
+
+.div-card p {
+    font-size: 15px;
+    text-align: justify;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.menu-cardapio h3 {
+    margin-bottom: 20px;
+}
+
+.menu-cardapio-itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.menu-cardapio-item {
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #E53063;
+    border-radius: 6px;
+    padding: 20px;
+    background-color: white;
+}
+
+/* TÍTULO DO BOLO */
+.menu-cardapio-item h3 {
+    text-align: center;
+    color: #E53063;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* BOTÃO COMPRAR */
+.reservar {
+    text-align: right;
+}
+
+.reservar a {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #E53063;
+}
+
+
+.hide {
+    display:none;
+}
+
+.fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    z-index: 2;
+}
