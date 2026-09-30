@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #ffe4e9
+    
 }
 
 header {
@@ -15,6 +17,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #FDA8B7
 }
 
 .div-menu {
@@ -25,10 +28,12 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #FDA8B7
 }
 
 .logotipo {
     height: 130px;
+    background-color: #FDA8B7
 }
 
 ul {
@@ -36,11 +41,13 @@ ul {
     gap: 20px;
     justify-content: center;
     list-style-type: none;
+    background-color: #FDA8B7
 }
 
 h1 {
         color: #E53063;
         font-size: 35px;
+        background-color: #FDA8B7
 }
 
 ul li {
@@ -50,7 +57,9 @@ ul li {
 
 a {
     text-decoration: none;
-    color:#FDEBD0;
+    color:#fdebd0;
+    background-color: #FDA8B7
+    
 }
 a:hover {
     cursor: pointer;

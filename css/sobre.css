@@ -1,0 +1,50 @@
+.titulo-sobre {
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    color: #E53063;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+main > section {
+    text-align: center;
+}
+
+.historia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px;
+    text-align: left;
+}
+
+.historia img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.historia div {
+    width: 40%;
+}
+
+.representa {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.representa div {
+    width: 25%;
+}
+
+.representa h3 {
+    color: #E53063;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
