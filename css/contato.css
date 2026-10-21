@@ -1,0 +1,151 @@
+
+.pedido {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    margin: 30px auto;
+    width: 85%;
+}
+
+.dados-cliente,
+.resumo-pedido {
+    border: 2px solid #E53063;
+    border-radius: 5px;
+    box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+}
+
+.dados-cliente {
+    width: 55%;
+}
+
+.resumo-pedido {
+    width: 40%;
+}
+
+h3 {
+    color: #E53063;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.dados-cliente p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+input:not([type="radio"]) {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FDA8B7;
+    border-radius: 5px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.pagamento {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pagamento p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E53063;
+    color: white;
+    font-family: "Comic Relief", system-ui;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c92250;
+}
+
+.item-pedido {
+    border-bottom: 1px solid #FDA8B7;
+    padding-bottom: 15px;
+}
+
+.item-pedido p {
+    font-size: 17px;
+}
+
+.total-pedido {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.total-pedido p {
+    font-size: 18px;
+}
+
+.total-pedido h2 {
+    margin-top: 5px;
+}
+
+.observacao {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+/* Modal do QR Code */
+
+.hide {
+    display: none;
+}
+
+.fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    padding-top: 30px;
+    z-index: 2;
+}
+
+.fechar {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.fechar a {
+    color: #E53063;
+    text-decoration: none;
+}
+
+.modal img {
+    display: block;
+    width: 175px;
+    margin: 15px auto;
+}
+
+.centralizado {
+    text-align: center;
+}
