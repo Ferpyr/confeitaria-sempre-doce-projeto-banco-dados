@@ -11,13 +11,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header>
         <div class="div-logo">
             <img class="logotipo" src="../img/logo.png" alt="Logotipo da Confeitaria">
         </div>
-
         <div class="div-menu">
             <h1>Confeitaria Sempre Doce</h1>
             <nav>
@@ -26,85 +24,71 @@
                     <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="cardapio.html">Cardápio</a></li>
                     <li><a href="contato.html">Contato</a></li>
+                    <li>
+                        <a href="profissionais.html">Profissionais</a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
-
     <main>
         <section class="sobre">
             <h2>Finalizar Pedido</h2>
             <p>Preencha seus dados e confira as informações da sua encomenda.</p>
         </section>
-
         <section class="pedido">
             <div class="dados-cliente">
                 <h3>Dados do cliente</h3>
-
                 <form id="form-pedido" action="#" method="post">
                     <p>Nome completo</p>
                     <input type="text" name="nome"
                         placeholder="Digite seu nome" required>
-
                     <p>Endereço</p>
                     <input type="text" name="endereco"
                         placeholder="Rua, número e bairro" required>
-
                     <p>Telefone</p>
                     <input type="tel" name="telefone"
                         placeholder="(00) 00000-0000" required>
-
                     <h3>Forma de pagamento</h3>
-
                     <div class="pagamento">
                         <p>
                             <input type="radio" name="pagamento" value="Pix" required>
                             Pix
                         </p>
-
                         <p>
                             <input type="radio" name="pagamento" value="Cartão">
                             Cartão
                         </p>
-
                         <p>
                             <input type="radio" name="pagamento" value="Dinheiro">
                             Dinheiro
                         </p>
                     </div>
-
                     <button type="submit">Confirmar pedido</button>
                 </form>
             </div>
-
             <div class="resumo-pedido">
                 <h3>Resumo do pedido</h3>
-
                 <div class="item-pedido">
                     <p>Item: Bolo de Chocolate</p>
                     <p>Quantidade: 1</p>
                     <p>Preço unitário: R$ 45,00</p>
                 </div>
-
                 <div class="total-pedido">
                     <p>Total do pedido</p>
                     <h2>R$ 45,00</h2>
                 </div>
-
                 <p class="observacao">
                     Confira os dados e a forma de pagamento antes de confirmar
                 </p>
             </div>
         </section>
     </main>
-
     <footer>
         2026 Confeitaria Sempre Doce.
         Todos os direitos reservados.
     </footer>
-
     <div id="fade" class="hide"></div>
-
     <div id="modal" class="hide">
         <div>
             <div class="centralizado">
@@ -117,7 +101,6 @@
             </div>
         </div>
     </div>
-
     <script src="../js/contato.js"></script>
 </body>
 </html>
